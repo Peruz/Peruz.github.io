@@ -1,0 +1,61 @@
+ :root {
+  --color_background: #ddd5d5;
+  --color_background_light: #fff3e6;
+  --color_background_pampas: #f4f2ee;
+  --color_background_whitelinen: #f8f0e8;
+  --color_niceRed: #b30000;
+  --color_niceBlue: #0000e6;
+  --color_olivine: #9AB973;
+}
+
+html, body {
+        border: 0%;
+        width: 960px;
+        margin: auto;
+}
+
+/*
+older width: 95%;
+margin: 1% 2.5% 1% 2.5%;
+*/
+
+body {
+    padding: 0 0;
+}
+
+#main {
+    margin: 0 auto; /* in case you want to set a fixed width on this as well */
+}
+
+h1 {
+text-align: center;
+height: 70px;
+padding: 30px 0px 0px 0px;
+color: white;
+text-shadow: 4px 4px 4px black;
+font-size: 40px;
+background-image: url("figures/schiele_bg.jpg");
+}
+
+h2 {
+clear: left;
+color : var(--color_niceRed);
+}
+
+h3 {
+color: black;
+}
+
+p {
+text-align: justify;
+text-justify: inter-word;
+}
+
+img {border: 15px solid var(--color_background_whitelinen); display: block; vertical-align: top}
+summary {font-family: Palatino, 'Palatino Linotype', Didot, Didot LTSTD, serif; outline:none;}
+body {background-color: var(--color_background_whitelinen);}
+hr {background-image: url("figures/schiele_bg.jpg"); height:10px;}
+
+html, body, form, h1, h2, h3, p {
+    font-family: "Palatino", 'Palatino Linotype', 'GFS Didot', 'Didot', 'Didot LT STD', serif;
+}
